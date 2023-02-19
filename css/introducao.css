@@ -13,7 +13,6 @@
     margin: 0 auto;
     align-items: center;
     text-align: center;
-
 }
 
 .titulo1{
@@ -79,6 +78,10 @@
         font-size: 2.3rem;
     }
 
+    .introducao p{
+        font-size: 1rem;
+    }
+
 }
 
 @media (max-width:980px){
@@ -89,14 +92,6 @@
 
     .titulo1{
         font-size: 3rem;
-    }
-
-    .introducao p{
-        margin-top: 30px;
-        color: #cfcfe2;
-        padding-bottom: 30px;
-        text-align: center;
-        font-size: 1rem;
     }
     
     img{
@@ -113,4 +108,11 @@
     .introducao-part2{
         grid-template-columns: repeat(1,1fr);
     }
+}
+
+@media(max-width:500px){
+    .titulo1{
+        font-size: 1.8rem;
+    }
+
 }

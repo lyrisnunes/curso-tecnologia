@@ -50,9 +50,13 @@ form .error{
     }
 }
 
-@media(max-width:450px){
+@media(max-width:500px){
     form{
         width: 300px;
+    }
+
+    .matricula h1{
+        font-size: 1.7rem;
     }
 }
 

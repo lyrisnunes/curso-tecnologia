@@ -35,7 +35,9 @@
     border-radius: 10px;
 }
 
-
+.cursos .preco-curso h2{
+    font-size: 1.5rem;
+}
 
 @media(max-width:1000px){
     .material{
@@ -50,6 +52,21 @@
 
     .container2 h1{
         font-size: 1.7rem;
-
     }
+}
+
+@media(max-width:500px){
+    .container2 h1{
+        font-size: 1.3rem;
+    }
+
+    .cursos .preco-curso h2{
+        font-size: 1.1rem;
+        font-weight: 600;
+    }
+
+    .material-curso{
+        padding: 10px;
+    }
+    
 }
