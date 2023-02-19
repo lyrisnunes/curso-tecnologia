@@ -1,0 +1,58 @@
+.matricula{
+    max-width: 1400px;
+    margin: 0 auto;
+    color: aliceblue;
+    padding: 3rem 1rem;
+    display: grid;
+    justify-content: center;
+}
+
+.matricula h1{
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
+
+form{
+    width: 800px;
+}
+
+form div{
+    padding-bottom: .5rem;
+}
+
+form input{
+    padding: .3rem;
+    width: 100%;
+    display: block;
+}
+
+form .error input{
+    border-color: #ff3860;
+
+}
+
+form .error{
+    color: #ff3860;
+    font-size: 1rem;
+    margin-top: .3rem;
+}
+
+
+@media(max-width:1100px){
+    form{
+        width: 600px;
+    }
+}
+
+@media(max-width:677px){
+    form{
+        width: 400px;
+    }
+}
+
+@media(max-width:450px){
+    form{
+        width: 300px;
+    }
+}
+
